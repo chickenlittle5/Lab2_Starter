@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sample meeting minutes page for CSE 110 Lab 2.">
+    <title>Team 6 Meeting Minutes</title>
+    <link rel="icon" href="screenshots/example.png" type="image/png">
+  </head>
+  <body>
+    <header>
+      <h1>Team 6 Meeting Minutes</h1>
+      <p>Project: <span>Larping Machine</span></p>
+      <nav>
+        <a href="#attendance">Attendance</a><br>
+        <a href="#agenda">Agenda</a><br>
+        <a href="#media">Media</a><br>
+        <a href="#form">Form</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Brainstorming</h2>
+        <h3>Month Day, 2026</h3>
+        <p><strong>Note:</strong> Team 6 is the best</p>
+      </section>
+
+      <hr>
+
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Ethan</li>
+          <li><b>Sean</b> (leader) </li>
+          <li>Maxime</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Check in</li>
+          <li>Review unfinished business</li>
+          <li>Discuss new ideas</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Unfinished Business</h2>
+        <div>
+          <p>Get codex to work.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>New Business</h2>
+        <p>We want to set our first meeting with everyone.</p>
+      </section>
+
+      <section>
+        <h2>Comments, Questions, and Concerns</h2>
+        <p><i>Question:</i> Should breaks be 5 or 10 minutes?</p>
+        <p><em>Concern:</em> Our name is lwky goated.</p>
+      </section>
+
+      <section id="media">
+        <h2>Diagrams and Recordings</h2>
+        <img src="screenshots/example.png" alt="Example pic" width="300">
+        <p>
+          Reference link:
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">How to watch a video</a>
+        </p>
+        <br>
+        BEST VIDEO EVER:
+        <video controls width="320">
+          <source src="best video ever.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section>
+        <h2>Extra Notes</h2>
+        <details>
+          <summary>Open quick summary</summary>
+          <p>The team agreed to keep the first prototype minimal.</p>
+        </details>
+      </section>
+
+      <section id="form">
+        <h2>Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" list="names">
+            </p>
+
+            <datalist id="names">
+              <option value="Alice"></option>
+              <option value="Bob"></option>
+            </datalist>
+
+            <p>
+              <label for="date">Next meeting date:</label>
+              <input type="date" id="date" name="date">
+            </p>
+
+            <p>
+              <input type="checkbox" id="remote" name="remote">
+              <label for="remote">Attend remotely</label>
+            </p>
+
+            <p>
+              <input type="radio" id="yes" name="vote" value="yes">
+              <label for="yes">Approve plan</label>
+              <input type="radio" id="no" name="vote" value="no">
+              <label for="no">Need changes</label>
+            </p>
+
+            <p>
+              <label for="topic">Topic:</label>
+              <select id="topic" name="topic">
+                <option value="planning">Planning</option>
+                <option value="design">Design</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="notes">Notes:</label><br>
+              <textarea id="notes" name="notes" rows="4" cols="30"></textarea>
+            </p>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Prepared for CSE 110 Lab 2.</p>
+    </footer>
+  </body>
+</html>
